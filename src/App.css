@@ -1,0 +1,33 @@
+:root {
+  --header-height: 80px;
+}
+
+.App {
+  text-align: center;
+  height: 100vh;
+}
+
+#content-container {
+  background-color: #f6f8fa;
+  height: calc(100% - var(--header-height) - 70px);
+  padding: 70px 20px 0 20px;
+  display: flex;
+  gap: 0 20px;
+}
+
+#left-content-container {
+  flex: 24%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+#right-content-container {
+  flex: 76%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}

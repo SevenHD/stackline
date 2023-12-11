@@ -1,0 +1,29 @@
+#chart-container {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+#chart-title {
+  width: 95%;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 600;
+  color: #38475c;
+}
+
+#chart-ticks {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 20px 0 0 0;
+  color: #9ba6bf;
+}

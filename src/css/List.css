@@ -1,0 +1,39 @@
+#list-container {
+  flex: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 40%;
+  width: 100%;
+  background-color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #38475c;
+  overflow: scroll;
+}
+
+table,
+th,
+td {
+  border-bottom: #e9ebec 1px solid;
+}
+
+table {
+  height: 100px;
+  width: 96%;
+  border-collapse: collapse;
+  margin: 10px 0 0 0;
+}
+
+.thead-tr {
+  height: 60px;
+}
+
+th {
+  width: 200px;
+}
+
+.tbody-tr {
+  height: 40px;
+}
