@@ -50,11 +50,13 @@ const initialState: ItemState = {
     loading: false
 }
 
+// Create a Thunk to handle async request
 export const getItems = createAsyncThunk<Item[]>("getItems", async () => {
     const data = await fetchData()
     return data
 })
 
+//Create item reducer
 const itemSlice = createSlice({
     name: "item",
     initialState,

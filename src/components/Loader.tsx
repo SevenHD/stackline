@@ -4,6 +4,7 @@ import { DotLoader } from "react-spinners";
 function Loader() {
   return (
     <>
+      {/* Render transparent background */}
       <div
         style={{
           position: "absolute",

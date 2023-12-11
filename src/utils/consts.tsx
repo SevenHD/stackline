@@ -6,6 +6,7 @@ interface TABLECOLUMN {
   cell?: (param1: any) => string;
 }
 
+//Ticks of X axis of Chart component
 export const ticks: string[] = [
   "JAN",
   "FEB",
@@ -21,6 +22,7 @@ export const ticks: string[] = [
   "DEC",
 ];
 
+//Column object for creating table of List component
 export const tableColumns: TABLECOLUMN[] = [
   {
     header: "WEEK ENDING",

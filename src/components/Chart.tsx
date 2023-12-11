@@ -18,6 +18,7 @@ function Chart() {
   );
   return (
     <div id="chart-container">
+      {/* Render chart after get data from server side*/}
       {chartData && (
         <>
           <div id="chart-title">Retail Sales</div>

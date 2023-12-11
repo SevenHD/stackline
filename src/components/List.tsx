@@ -31,6 +31,7 @@ function List() {
 
   return (
     <div id="list-container">
+      {/* Render table cells after get sales data from server side */}
       {data && (
         <table>
           <thead>

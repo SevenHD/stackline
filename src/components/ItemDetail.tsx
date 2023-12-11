@@ -11,6 +11,7 @@ function ItemDetail() {
 
   return (
     <>
+      {/* Render product details after get data from server side */}
       {detail && (
         <>
           <div id="item-detail-image-container">
