@@ -35,6 +35,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: flex-start;
+  gap: 10px;
   color: #38475c;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
